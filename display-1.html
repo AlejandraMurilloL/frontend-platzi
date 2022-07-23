@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        div {
+            background: salmon;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+
+        a {
+            background: skyblue;
+            margin: 20px;
+            /*Los elementos en linea no tienen valides con las siguientes propiedades*/
+            width: 200px;
+            height: 200px;
+        }
+
+        button {
+            background: slateblue;
+            width: 150px;
+            height: 50px;
+            /* Tiene el tamaño de s contenido sin embargo se pueden aplicar propiedades de los elementos en bloque*/
+        }
+
+    </style>
+</head>
+<body>
+    <div>Bloque</div>   
+    <a href="">inline</a>   
+    <button>Inline-Block</button>
+</body>
+</html>
